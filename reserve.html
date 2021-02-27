@@ -68,6 +68,18 @@
       </div>
 </body>
 <script>
+$(".submit").on("click", function(event) {
+    event.preventDefault();
+
+    
+    var newReservation = {
+      customerName: $("#res-name").val().trim(),
+      phoneNumber: $("#res-phone").val().trim(),
+      customerEmail: $("#res-email").val().trim(),
+      customerID: $("#res-id").val().trim()
+    };
+
+
 
 </script>
 </html>
