@@ -1,0 +1,21 @@
+{
+  "name": "MiniProjectWeek11",
+  "version": "1.0.0",
+  "description": "Mini Project Week 11",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkuebler12/MiniProjectWeek11.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkuebler12/MiniProjectWeek11/issues"
+  },
+  "homepage": "https://github.com/tkuebler12/MiniProjectWeek11#readme"
+}
