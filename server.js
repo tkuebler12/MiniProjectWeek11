@@ -14,7 +14,7 @@ app.get('/', (req,res) => res.sendFile(path.join(__dirname, 'home.html')));
 app.get('/table', (req,res) => res.sendFile(path.join(__dirname, 'table.html')));
 app.get('/reserve', (req,res) => res.sendFile(path.join(__dirname, 'reserve.html')));
 
-app.post('table',(req,rest) => {
+app.post('/table',(req,res) => {
     const newTable = req.body;
 
     table.push(newTable);
